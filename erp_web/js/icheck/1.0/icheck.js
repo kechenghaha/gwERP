@@ -79,8 +79,6 @@
           checkedClass: _checked,
           disabledClass: _disabled,
           indeterminateClass: _indeterminate,
-          
-          // jishenghua add default style.
           checkboxClass: 'icheckbox_minimal-grey',
           radioClass: 'iradio_minimal-grey',
           

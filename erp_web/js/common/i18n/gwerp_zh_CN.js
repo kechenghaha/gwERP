@@ -1,9 +1,3 @@
-/*!
- * Copyright (c) 2013-Now 华夏erp All rights reserved.
- *
- * @author jishenghua
- * @version 2019-09-14
- */
 (function (a) {
     window.js = window.js || {};
     js.i18n = a.extend({}, js.i18n, {

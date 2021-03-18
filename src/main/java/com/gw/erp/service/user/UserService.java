@@ -45,7 +45,7 @@ public class UserService {
 
     @Resource
     private UserMapper userMapper;
-
+ 
     @Resource
     private UserMapperEx userMapperEx;
     @Resource

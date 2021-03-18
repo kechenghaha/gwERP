@@ -4460,8 +4460,6 @@ S2.define('select2/dropdown/closeOnSelect',[
 
   return CloseOnSelect;
 });
-
-//jishenghua 默认为中文
 S2.define('select2/i18n/en',[],function () {
   // English
   return {
@@ -4884,7 +4882,7 @@ S2.define('select2/defaults',[
         return selection.text;
       },
       theme: 'default',
-      width: '100%' // jishenghua 宽度自适应     'resolve'
+      width: '100%' // 宽度自适应     'resolve'
     };
   };
 
@@ -5310,7 +5308,7 @@ S2.define('select2/core',[
     this.on('close', function () {
       self.$container.removeClass('select2-container--open');
       
-      self.$selection.focus();  // jishenghua 修正选择后焦点丢失
+      self.$selection.focus();  //  修正选择后焦点丢失
     });
 
     this.on('enable', function () {
@@ -5374,7 +5372,7 @@ S2.define('select2/core',[
           evt.preventDefault();
         }
       } else {
-        if (/*key === KEYS.ENTER || */key === KEYS.SPACE || // jishenghua 去掉回车后打开下拉框，解决jqgrid回车获取下一个输入框按键冲突
+        if (/*key === KEYS.ENTER || */key === KEYS.SPACE || //  去掉回车后打开下拉框，解决jqgrid回车获取下一个输入框按键冲突
             (key === KEYS.DOWN && evt.altKey)) {
           self.open();
 

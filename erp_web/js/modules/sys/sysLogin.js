@@ -1,9 +1,4 @@
-/*!
- * Copyright (c) 2013-Now 华夏erp All rights reserved.
- *
- * @author jishenghua
- * @version 2019-09-14
- */
+
 $("#loginName, #password").on("focus blur", function () {
     var a = this;
     setTimeout(function () {

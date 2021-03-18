@@ -1,7 +1,4 @@
-/*!
- * 消息推送实现
- * @author jishenghua
- */
+
 $(function () {
     // unreadMsg()
 });

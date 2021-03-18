@@ -1,8 +1,4 @@
-/*!
- * 首页Tab页签通用方法
- * @author jishenghua
- * @version 2017-3-26
- */
+
 (function (b) {
     var a = {
         tabPageId: null, initTabPage: function (e, c) {

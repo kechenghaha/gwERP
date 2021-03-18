@@ -7,7 +7,6 @@
  * $('#inputForm').submit(function(){
  * 		$('#password').val(DesUtils.encode($('#password').val(), '1,2,3'));
  * });
- * @author jishenghua
  */
 (function() {
 	
