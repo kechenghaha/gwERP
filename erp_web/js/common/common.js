@@ -240,7 +240,7 @@
 	 */
 	function toolbarStatus() {
 		var btnStr = getBtnStr();
-		if(btnStr && btnStr.indexOf(1)>-1) {
+		if(btnStr) {
 			$(".datagrid-toolbar").show();
 		} else {
 			$(".datagrid-toolbar").remove();

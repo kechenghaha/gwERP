@@ -284,6 +284,9 @@
         //如果允许的按钮列表中存在就显示，2-代表审核|反审核的权限
         if(btnEnableList && btnEnableList.indexOf(2)>-1 && listTitle.indexOf("订单")>-1){
             isHiddenStatus = false;  //显示
+            if(btnEnableList.indexOf(1)==-1){
+                tableToolBar.splice(0);
+            }
             tableToolBar.push({
                     id:'okDepotHead',
                     text:'审核',
